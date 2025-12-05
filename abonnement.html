@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Formules d'Abonnement - CoMoov</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Styles simples pour un design clair */
+        body { background-color: #f8f9fa; }
+        .pricing-section { padding: 80px 0; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="cev.html">← Retour à l'Accueil CoMoov</a> 
+        </div>
+    </nav>
+
+    <header class="py-5 bg-success text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Choisissez votre Formule Éco-Sport</h1>
+            <p class="lead">Des abonnements flexibles pour tous les objectifs et tous les budgets. Un mois sans engagement !</p>
+        </div>
+    </header>
+
+    <section id="offres-details" class="py-5 bg-light pricing-section">
+        <div class="container">
+            <div class="row justify-content-center g-4"> <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow">
+                        <div class="card-header bg-dark text-white">Essentiel</div>
+                        <div class="card-body">
+                            <h5 class="card-title display-6 fw-bold">20€</h5>
+                            <p class="text-muted">par mois</p>
+                            <hr>
+                            <p class="card-text fw-bold text-danger">Accès limité à une fois par jour.</p>
+                            <ul class="list-unstyled text-start mx-auto" style="max-width: 80%;">
+                                <li>✅ Machines productrices d'énergie</li>
+                                <li>✅ Suivi via l'application (QR Code)</li>
+                                <li>❌ Accompagnateur</li>
+                                <li>❌ Coach</li>
+                            </ul>
+                            <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#inscriptionModal">Je m'abonne</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center border-success border-3 shadow-lg">
+                        <div class="card-header bg-success text-white">Le Plus Populaire</div>
+                        <div class="card-body">
+                            <h5 class="card-title display-6 fw-bold">25€</h5>
+                            <p class="text-muted">par mois</p>
+                            <hr>
+                            <p class="card-text fw-bold text-success">Accès illimité à la salle.</p>
+                            <ul class="list-unstyled text-start mx-auto" style="max-width: 80%;">
+                                <li>✅ Machines productrices d'énergie</li>
+                                <li>✅ Accès illimité toute l'année</li>
+                                <li>✅ Système de récompenses complet</li>
+                                <li>❌ Coach / Accompagnateur</li>
+                            </ul>
+                            <button type="button" class="btn btn-success mt-3" data-bs-toggle="modal" data-bs-target="#inscriptionModal">Je m'abonne</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow">
+                        <div class="card-header bg-dark text-white">Duo</div>
+                        <div class="card-body">
+                            <h5 class="card-title display-6 fw-bold">30€</h5>
+                            <p class="text-muted">par mois</p>
+                            <hr>
+                            <p class="card-text fw-bold text-danger">Accès limité à une fois par jour.</p>
+                            <ul class="list-unstyled text-start mx-auto" style="max-width: 80%;">
+                                <li>✅ Machines productrices d'énergie</li>
+                                <li>✅ Accompagnateur possible (un invité)</li>
+                                <li>✅ Suivi via l'application (QR Code)</li>
+                                <li>❌ Coach</li>
+                            </ul>
+                            <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#inscriptionModal">Je m'abonne</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 text-center shadow">
+                        <div class="card-header bg-dark text-white">Coaching</div>
+                        <div class="card-body">
+                            <h5 class="card-title display-6 fw-bold">60€</h5>
+                            <p class="text-muted">par mois</p>
+                            <hr>
+                            <p class="card-text fw-bold text-danger">Accès limité à une fois par jour.</p>
+                            <ul class="list-unstyled text-start mx-auto" style="max-width: 80%;">
+                                <li>✅ Accès limité 1x/jour</li>
+                                <li>✅ Coach disponible (Mercredi & Samedi)</li>
+                                <li>✅ Machines et Appli incluses</li>
+                                <li>❌ Accès illimité</li>
+                            </ul>
+                            <button type="button" class="btn btn-dark mt-3" data-bs-toggle="modal" data-bs-target="#inscriptionModal">Je m'abonne</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-3 text-center">
+        <p class="mb-0">© 2025 CEV - CoMoov. Éco-Conception Web.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="modal fade" id="inscriptionModal" tabindex="-1" aria-labelledby="inscriptionModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title" id="inscriptionModalLabel">🚀 Inscription : Devenez un Éco-Sportif !</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead text-center">Prêt à transformer votre effort en énergie ? Remplissez ce formulaire pour choisir votre abonnement et commencer votre parcours éco-responsable !</p>
+
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="modalPrenom" class="form-label">Prénom</label>
+                                <input type="text" class="form-control" id="modalPrenom" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="modalNom" class="form-label">Nom</label>
+                                <input type="text" class="form-control" id="modalNom" required>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="modalEmail" class="form-label">Adresse Email</label>
+                            <input type="email" class="form-control" id="modalEmail" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="modalAbonnement" class="form-label">Choix de l'Abonnement</label>
+                            <select class="form-select" id="modalAbonnement" required>
+                                <option selected disabled value="">Sélectionnez une formule...</option>
+                                <option value="20">Essentiel (20€ / mois - Accès limité 1x/jour)</option>
+                                <option value="25">Illimité (25€ / mois - Accès illimité)</option>
+                                <option value="30">Duo (30€ / mois - Accès limité 1x/jour + Accompagnateur possible)</option>
+                                <option value="60">Coach (60€ / mois - Coach dispo Mer/Sam + Entrée 1x/jour)</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="modalRgpd" required>
+                            <label class="form-check-label" for="modalRgpd">J'accepte les conditions générales d'utilisation et la politique de confidentialité (RGPD).</label>
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success btn-lg">Valider l'Inscription et Payer</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <p class="mb-0 text-muted small">Inscription également possible directement dans notre salle de sport.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

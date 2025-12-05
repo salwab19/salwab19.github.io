@@ -1,0 +1,13 @@
+/* Dans votre fichier CSS personnalisé */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212 !important; /* Fond noir */
+    color: #f0f0f0 !important; /* Texte clair */
+  }
+  .bg-success, .bg-dark, .navbar-dark {
+    background-color: #004d40 !important; /* Vert sombre */
+  }
+  .card {
+    background-color: #1e1e1e !important;
+  }
+}
